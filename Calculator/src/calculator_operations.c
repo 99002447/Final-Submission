@@ -33,3 +33,13 @@ int power(int operand1, int operand2)
     else
         return pow(operand1,operand2);
 }
+
+int root(int operand1, int operand2)
+{
+    if(0 == operand2)
+        return 0;
+    if(1 == operand2)
+        return operand1;
+    else
+        return pow(operand1,(1/operand2));
+}
