@@ -119,7 +119,7 @@ void calculator_menu(void)
           case FACTORIAL:
             printf("\n\tFactorial of %d is %d\nEnter to continue", 
             calculator_operand1,
-            factorial(calculator_operand1);
+            factorial(calculator_operand1));
             
             __fpurge(stdin);
             getchar();
