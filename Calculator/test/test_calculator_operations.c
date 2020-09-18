@@ -28,6 +28,7 @@ int main() {
   CU_add_test(suite, "multiply", test_multiply);
   CU_add_test(suite, "divide", test_divide);
   CU_add_test(suite, "power", test_power);
+  CU_add_test(suite, "factorial", test_factorial);
 
 
 /* Note: Do not edit START*/
@@ -77,4 +78,11 @@ void test_power(void) {
   
   /* Dummy fail*/
   CU_ASSERT(9 == power(3, 3));
+}
+
+void test_factorial(void) {
+  CU_ASSERT(6 == factorial(3));
+  
+  /* Dummy fail*/
+  CU_ASSERT(240 == factorial(6));
 }
