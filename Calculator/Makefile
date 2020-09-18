@@ -35,8 +35,8 @@ run:$(PROJECT_NAME)
 
 # Build and run the unit tests
 test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit
-	./$(TEST_OUTPUT) -lm
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit -lm
+	./$(TEST_OUTPUT) 
 
 
 # Remove all the built files, invoke by `make clean`
