@@ -54,4 +54,13 @@ int divide(int operand1, int operand2);
 */
 int power(int operand1, int operand2);
 
+/**
+* finds nth of the operand1 where n is operand2 and returns the result 
+* @param[in] operand1 
+* @param[in] operand2 
+* @return integer value of the operand1 ^ (1/ operand2)
+* @note returns 1 for power of 0 
+*/
+int root(int operand1, int operand2);
+
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
