@@ -31,5 +31,5 @@ int power(int operand1, int operand2)
     if(1 == operand2)
         return operand1;
     else
-        return pow(x,y);
+        return pow(operand1,operand2);
 }
