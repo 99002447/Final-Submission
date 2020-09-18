@@ -70,4 +70,18 @@ int root(int operand1, int operand2);
 */
 int factorial(int operand1);
 
+/**
+* finds log of operand1 returns the result 
+* @param[in] operand1 
+* @return integer value of the operand1!
+*/
+int logarithm(int operand1);
+
+/**
+* finds log of operand1 to base 10 returns the result 
+* @param[in] operand1 
+* @return integer value of the operand1!
+*/
+int logarithm10(int operand1);
+
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
