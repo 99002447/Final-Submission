@@ -63,4 +63,11 @@ int power(int operand1, int operand2);
 */
 int root(int operand1, int operand2);
 
+/**
+* finds factorial of operand1 returns the result 
+* @param[in] operand1 
+* @return integer value of the operand1!
+*/
+int factorial(int operand1);
+
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
