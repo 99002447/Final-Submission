@@ -8,6 +8,12 @@ BUILD = build
 SRC = main.c\
 src/calculator_operations.c\
 
+# All test source files
+TEST_SRC = src/calculator_operations.c\
+test/test_calculator_operations.c
+
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
+
 
 
 # All include folders with header files
@@ -27,6 +33,10 @@ all: $(SRC) $(BUILD)
 run:$(PROJECT_NAME)
 	./$(PROJECT_OUTPUT).out
 
+# Build and run the unit tests
+test:$(BUILD)
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit
+	./$(TEST_OUTPUT) -lm
 
 
 # Remove all the built files, invoke by `make clean`
