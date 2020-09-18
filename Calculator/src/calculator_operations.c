@@ -57,3 +57,15 @@ int factorial(int operand1)
   /* Recursively calculate Factorial of the number */
   return operand1 * factorial(operand1-1);
 }
+
+int logarithm(int operand1)
+{
+  
+  return log(operand1);
+}
+
+int logarithm10(int operand1)
+{
+  
+  return log10(operand1);
+}
