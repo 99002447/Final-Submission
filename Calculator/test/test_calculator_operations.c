@@ -73,8 +73,8 @@ void test_divide(void) {
 }
 
 void test_power(void) {
-  CU_ASSERT(100 == add(10, 2));
+  CU_ASSERT(100 == power(10, 2));
   
   /* Dummy fail*/
-  CU_ASSERT(9 == add(3, 3));
+  CU_ASSERT(9 == power(3, 3));
 }
