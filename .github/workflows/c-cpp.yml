@@ -19,5 +19,5 @@ jobs:
  
 
     - name: make all
-      run:  make all -C Calculator/
+      run:  make all -C 3.Implementaion/
     
