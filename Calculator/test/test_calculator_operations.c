@@ -11,6 +11,7 @@ void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
 void test_power(void);
+void test_factorial(void);
 
 /* Start of the application test */
 int main() {
