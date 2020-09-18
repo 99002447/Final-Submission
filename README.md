@@ -2,6 +2,6 @@
 Advanced Calculator
 
 
-|Build|Unit Test|cppcheck|Valgrind|Codacy|
+|Build|Unit Test|cppcheck|Codacy|
 |:--:|:--:|:--:|:--:|:--:|
-|![C/C++ CI](https://github.com/99002447/Final-Submission/workflows/C/C++%20CI/badge.svg)|![Unit testing](https://github.com/99002447/Final-Submission/workflows/Unit%20testing/badge.svg)|![cppcheck-action](https://github.com/99002447/Final-Submission/workflows/cppcheck-action/badge.svg)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/3ac7e2a959a24fa4b5d1b9c1c886ff75)]|
+|![C/C++ CI](https://github.com/99002447/Final-Submission/workflows/C/C++%20CI/badge.svg)|![Unit testing](https://github.com/99002447/Final-Submission/workflows/Unit%20testing/badge.svg)|![cppcheck-action](https://github.com/99002447/Final-Submission/workflows/cppcheck-action/badge.svg)|
