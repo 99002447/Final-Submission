@@ -87,7 +87,7 @@ void test_power(void) {
   CU_ASSERT(9 == power(3, 3));
 }
 
-void test_power(void) {
+void test_root(void) {
   CU_ASSERT(9 == root(81, 2));
   
   /* Dummy fail*/
