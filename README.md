@@ -1,5 +1,5 @@
 # Final-Submission
-Advanced Calculator
+## **Advanced Calculator**
 
 |Build|Unit Test|cppcheck|Codacy|
 |:--:|:--:|:--:|:--:|
