@@ -78,3 +78,9 @@ int randomize()
   
   return rand();
 }
+
+int dollartoinr(int operand1)
+{
+  
+  return operand1*73.61;
+}

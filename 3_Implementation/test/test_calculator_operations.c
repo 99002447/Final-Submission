@@ -16,6 +16,7 @@ void test_factorial(void);
 void test_logarithm(void);
 void test_logarithm10(void);
 void test_temp(void);
+void test_dollartoinr(void);
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
@@ -37,6 +38,8 @@ int main() {
   CU_add_test(suite, "logarithm", test_logarithm);
   CU_add_test(suite, "logarithm10", test_logarithm10);
   CU_add_test(suite, "temp", test_temp);
+    CU_add_test(suite, "dollartoinr", test_dollartoinr);
+
 
 
 
@@ -122,4 +125,11 @@ void test_temp(void) {
   
   /* Dummy fail*/
   CU_ASSERT(6 == temp(35));
+}
+
+void test_dollartoinr(void) {
+  CU_ASSERT(73.61 == dollartoinr(1));
+  
+  /* Dummy fail*/
+   CU_ASSERT(73.61 == dollartoinr(2));
 }

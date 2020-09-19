@@ -96,4 +96,13 @@ int temp(int operand1);
 * @return integer !
 */
 int randomize();
+
+
+
+/**
+* converts $ to INR returns the result 
+* @return integer !
+*/
+int dollartoinr(int operand1);
+
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
