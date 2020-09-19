@@ -93,7 +93,7 @@ void test_root(void) {
   CU_ASSERT(9 == root(81, 2));
   
   /* Dummy fail*/
-  CU_ASSERT(3 == root(28, 3));
+  CU_ASSERT(3 == root(27, 3));
 }
 
 void test_factorial(void) {
