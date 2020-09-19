@@ -90,10 +90,10 @@ void test_power(void) {
 }
 
 void test_squareroot(void) {
-  CU_ASSERT(9 == root(81));
+  CU_ASSERT(9 == squareroot(81));
   
   /* Dummy fail*/
-  CU_ASSERT(3 == root(27));
+  CU_ASSERT(3 == squareroot(27));
 }
 
 void test_factorial(void) {
