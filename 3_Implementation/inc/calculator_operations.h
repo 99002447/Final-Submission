@@ -84,4 +84,10 @@ int logarithm(int operand1);
 */
 int logarithm10(int operand1);
 
+/**
+* finds temperature of operand1 in celsius returns the result 
+* @param[in] operand1 
+* @return integer value of the operand1!
+*/
+int temp(int operand1);
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */

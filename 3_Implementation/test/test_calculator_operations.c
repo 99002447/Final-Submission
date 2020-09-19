@@ -15,7 +15,7 @@ void test_root(void);
 void test_factorial(void);
 void test_logarithm(void);
 void test_logarithm10(void);
-
+void test_temp(void);
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
@@ -36,6 +36,8 @@ int main() {
   CU_add_test(suite, "factorial", test_factorial);
   CU_add_test(suite, "logarithm", test_logarithm);
   CU_add_test(suite, "logarithm10", test_logarithm10);
+  CU_add_test(suite, "temp", test_temp);
+
 
 
 /* Note: Do not edit START*/
@@ -113,4 +115,11 @@ void test_logarithm10(void) {
   
   /* Dummy fail*/
   CU_ASSERT(6 == logarithm(35));
+}
+
+void test_temp(void) {
+  CU_ASSERT(0 == temp(32));
+  
+  /* Dummy fail*/
+  CU_ASSERT(6 == temp(35));
 }
