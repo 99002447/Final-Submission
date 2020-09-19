@@ -105,4 +105,9 @@ int randomize();
 */
 int dollartoinr(int operand1);
 
+/**
+* checks prime returns the 1 or 0 
+* @return integer !
+*/
+int prime(int operand1);
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */

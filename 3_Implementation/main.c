@@ -165,7 +165,7 @@ void calculator_menu(void)
             getchar();	
 		    
  	  case PRIME:
-            printf("\n\t%d  is %dC\nEnter to continue", 
+            printf("\n\t%d  is prime if %d is 1C\nEnter to continue", 
             calculator_operand1,
             prime(calculator_operand1));
             

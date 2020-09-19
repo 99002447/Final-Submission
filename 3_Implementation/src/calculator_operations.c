@@ -84,3 +84,11 @@ int dollartoinr(int operand1)
   
   return operand1*73;
 }
+
+int prime(int operand1)
+{
+  if (operand1 == 2 || (operand1%2==0))
+    return 1;
+ else 
+	return 0;
+}

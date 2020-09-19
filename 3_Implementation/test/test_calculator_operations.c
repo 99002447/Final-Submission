@@ -17,6 +17,7 @@ void test_logarithm(void);
 void test_logarithm10(void);
 void test_temp(void);
 void test_dollartoinr(void);
+void test_prime(void);
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
@@ -39,7 +40,7 @@ int main() {
   CU_add_test(suite, "logarithm10", test_logarithm10);
   CU_add_test(suite, "temp", test_temp);
     CU_add_test(suite, "dollartoinr", test_dollartoinr);
-
+CU_add_test(suite, "prime", test_prime);
 
 
 
@@ -132,4 +133,11 @@ void test_dollartoinr(void) {
   
   /* Dummy fail*/
    CU_ASSERT(73 == dollartoinr(2));
+}
+
+void test_prime(void) {
+   CU_ASSERT(1 == prime(5));
+  
+  /* Dummy fail*/
+   CU_ASSERT(1 == prime(4));
 }
