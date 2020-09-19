@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 void calculator_menu(void)
 {
     printf("\nAvailable Operations\n");
-    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Power\n6. SquareRoot\n7. Factorial \n8. Log \n9. Log10 \n10.Temp \n11.Randomize \n13.$toInr \n14.Prime \n15.Exit");
+    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Power\n6. SquareRoot\n7. Factorial \n8. Log \n9. Log10 \n10.Temp \n11.Randomize \n12.$toInr \n13.Prime \n14.Exit");
     printf("\n\tEnter your choice\n");
    
      __fpurge(stdin);
@@ -173,7 +173,7 @@ void calculator_menu(void)
             getchar();	
 		    
 			
-        case 13:
+        case 14:
             exit(0);
             break;
         default:
