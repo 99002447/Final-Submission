@@ -35,14 +35,10 @@ int power(int operand1, int operand2)
         return pow(operand1,operand2);
 }
 
-int root(int operand1, int operand2)
+int squareroot(int operand1)
 {
-    if(0 == operand2)
-        return 0;
-    if(1 == operand2)
-        return operand1;
-    else
-        return pow(operand1,(1/operand2));
+    
+        return sqrt(operand1);
 }
 
 int factorial(int operand1)

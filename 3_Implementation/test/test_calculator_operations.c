@@ -11,7 +11,7 @@ void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
 void test_power(void);
-void test_root(void);
+void test_squarerootroot(void);
 void test_factorial(void);
 void test_logarithm(void);
 void test_logarithm10(void);
@@ -32,7 +32,7 @@ int main() {
   CU_add_test(suite, "multiply", test_multiply);
   CU_add_test(suite, "divide", test_divide);
   CU_add_test(suite, "power", test_power);
-  CU_add_test(suite, "root", test_root);
+  CU_add_test(suite, "squareroot", test_root);
   CU_add_test(suite, "factorial", test_factorial);
   CU_add_test(suite, "logarithm", test_logarithm);
   CU_add_test(suite, "logarithm10", test_logarithm10);
@@ -89,11 +89,11 @@ void test_power(void) {
   CU_ASSERT(9 == power(3, 3));
 }
 
-void test_root(void) {
-  CU_ASSERT(9 == root(81, 2));
+void test_squareroot(void) {
+  CU_ASSERT(9 == root(81));
   
   /* Dummy fail*/
-  CU_ASSERT(3 == root(27, 3));
+  CU_ASSERT(3 == root(27));
 }
 
 void test_factorial(void) {

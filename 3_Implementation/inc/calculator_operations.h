@@ -61,7 +61,7 @@ int power(int operand1, int operand2);
 * @return integer value of the operand1 ^ (1/ operand2)
 * @note returns 1 for power of 0 
 */
-int root(int operand1, int operand2);
+int squareroot(int operand1);
 
 /**
 * finds factorial of operand1 returns the result 
