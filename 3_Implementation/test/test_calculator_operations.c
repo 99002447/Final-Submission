@@ -128,8 +128,8 @@ void test_temp(void) {
 }
 
 void test_dollartoinr(void) {
-  CU_ASSERT(73.61 == dollartoinr(1));
+   CU_ASSERT(73 == dollartoinr(1));
   
   /* Dummy fail*/
-   CU_ASSERT(73.61 == dollartoinr(2));
+   CU_ASSERT(73 == dollartoinr(2));
 }
