@@ -13,7 +13,7 @@ int calculator_operand1 = 0;
 int calculator_operand2 = 0;
 
 /* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, POWER, ROOT, FACTORIAL, LOG, LOG10, TEMP, RANDOMIZE EXIT };
+enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, POWER, ROOT, FACTORIAL, LOG, LOG10, TEMP, RANDOMIZE ,EXIT };
 
 /* Display the menu of operations supported */
 void calculator_menu(void);

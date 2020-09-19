@@ -74,7 +74,7 @@ int logarithm10(int operand1)
 int temp(int operand1)
 {
   
-  return ((operand1 - 32)*5/9));
+  return ((operand1 - 32)*5/9);
 }
 
 int randomize()
