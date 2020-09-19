@@ -13,7 +13,7 @@ int calculator_operand1 = 0;
 int calculator_operand2 = 0;
 
 /* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, POWER, SQUAREROOT, FACTORIAL, LOG, LOG10, TEMP, RANDOMIZE, DOLLARTOINR ,EXIT };
+enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, POWER, SQUAREROOT, FACTORIAL, LOG, LOG10, TEMP, RANDOMIZE, DOLLARTOINR ,PRIME ,EXIT };
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 void calculator_menu(void)
 {
     printf("\nAvailable Operations\n");
-    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Power\n6. SquareRoot\n7. Factorial \n8. Log \n9. Log10 \n10.Temp \n11.Randomize \n13.$toInr 12.Exit");
+    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Power\n6. SquareRoot\n7. Factorial \n8. Log \n9. Log10 \n10.Temp \n11.Randomize \n13.$toInr \n14.Prime \n15.Exit");
     printf("\n\tEnter your choice\n");
    
      __fpurge(stdin);
@@ -139,7 +139,7 @@ void calculator_menu(void)
             __fpurge(stdin);
             getchar();
             break;
-		  case TEMP:
+	  case TEMP:
             printf("\n\tTemperature of %dF is %dC\nEnter to continue", 
             calculator_operand1,
             temp(calculator_operand1));
@@ -148,21 +148,30 @@ void calculator_menu(void)
             getchar();
             break;	
 			
-		   case RANDOMIZE:
+	   case RANDOMIZE:
             printf("\n\tThe random number generated is %dC\nEnter to continue", 
                         randomize());
             
             __fpurge(stdin);
             getchar();
             break;
-		case DOLLARTOINR:
+		    
+	  case DOLLARTOINR:
             printf("\n\t%d $ is %dInrC\nEnter to continue", 
             calculator_operand1,
             dollartoinr(calculator_operand1));
             
             __fpurge(stdin);
-            getchar();			
-
+            getchar();	
+		    
+ 	  case PRIME:
+            printf("\n\t%d  is %dC\nEnter to continue", 
+            calculator_operand1,
+            prime(calculator_operand1));
+            
+            __fpurge(stdin);
+            getchar();	
+		    
 			
         case 13:
             exit(0);
