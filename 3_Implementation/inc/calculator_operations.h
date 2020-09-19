@@ -95,5 +95,5 @@ int temp(int operand1);
 * generates a random number and returns the result 
 * @return integer !
 */
-int random();
+int randomize();
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */

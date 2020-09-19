@@ -77,7 +77,7 @@ int temp(int operand1)
   return ((operand1 - 32)*5/9));
 }
 
-int random()
+int randomize()
 {
   
   return rand();

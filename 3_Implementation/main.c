@@ -13,7 +13,7 @@ int calculator_operand1 = 0;
 int calculator_operand2 = 0;
 
 /* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, POWER, ROOT, FACTORIAL, LOG, LOG10, TEMP, EXIT };
+enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, POWER, ROOT, FACTORIAL, LOG, LOG10, TEMP, RANDOMIZE EXIT };
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 void calculator_menu(void)
 {
     printf("\nAvailable Operations\n");
-    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Power\n6. Root\n7. Factorial \n8. Log \n9. Log10 \n10.Temp \n11.Random \n12.Exit");
+    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Power\n6. Root\n7. Factorial \n8. Log \n9. Log10 \n10.Temp \n11.Randomize \n12.Exit");
     printf("\n\tEnter your choice\n");
    
      __fpurge(stdin);
@@ -149,9 +149,9 @@ void calculator_menu(void)
             getchar();
             break;	
 			
-		   case RANDOM:
+		   case RANDOMIZE:
             printf("\n\tThe random number generated is %dC\nEnter to continue", 
-                        random());
+                        randomize());
             
             __fpurge(stdin);
             getchar();
