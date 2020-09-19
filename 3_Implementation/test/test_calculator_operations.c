@@ -32,7 +32,7 @@ int main() {
   CU_add_test(suite, "multiply", test_multiply);
   CU_add_test(suite, "divide", test_divide);
   CU_add_test(suite, "power", test_power);
-  CU_add_test(suite, "squareroot", test_root);
+  CU_add_test(suite, "squareroot", test_squareroot);
   CU_add_test(suite, "factorial", test_factorial);
   CU_add_test(suite, "logarithm", test_logarithm);
   CU_add_test(suite, "logarithm10", test_logarithm10);
