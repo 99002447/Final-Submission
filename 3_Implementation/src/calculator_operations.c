@@ -1,6 +1,7 @@
 
 #include <calculator_operations.h>
 #include <math.h>
+
 int add(int operand1, int operand2)
 {
     return operand1 + operand2;
@@ -73,5 +74,11 @@ int logarithm10(int operand1)
 int temp(int operand1)
 {
   
-  return ((operand1 - 32)*5/9);
+  return ((operand1 - 32)*5/9));
+}
+
+int random()
+{
+  
+  return rand();
 }

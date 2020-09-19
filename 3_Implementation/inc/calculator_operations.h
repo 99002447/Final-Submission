@@ -90,4 +90,10 @@ int logarithm10(int operand1);
 * @return integer value of the operand1!
 */
 int temp(int operand1);
+
+/**
+* generates a random number and returns the result 
+* @return integer !
+*/
+int random();
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
