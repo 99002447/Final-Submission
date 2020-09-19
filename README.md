@@ -1,5 +1,5 @@
 # Final-Submission
-## **Advanced Calculator**
+## **Advanced Calculator by Sourab John Jacob**
 
 |Build|Unit Test|cppcheck|Codacy|
 |:--:|:--:|:--:|:--:|
